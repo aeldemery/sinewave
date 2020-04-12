@@ -1,0 +1,7 @@
+data/github.aeldemery.sinewave.desktop.in
+data/github.aeldemery.sinewave.appdata.xml.in
+data/github.aeldemery.sinewave.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+

@@ -1,0 +1,38 @@
+{
+    "app-id" : "github.aeldemery.sinewave",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "3.36",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "sinewave",
+    "finish-args" : [
+        "--share=network",
+        "--share=ipc",
+        "--socket=fallback-x11",
+        "--socket=wayland"
+    ],
+    "cleanup" : [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/vala",
+        "*.la",
+        "*.a"
+    ],
+    "modules" : [
+        {
+            "name" : "sinewave",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "file:///home/ahmed/Projects/Vala/SineWave"
+                }
+            ]
+        }
+    ]
+}

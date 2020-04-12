@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=sinewave
+Exec=sinewave
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
