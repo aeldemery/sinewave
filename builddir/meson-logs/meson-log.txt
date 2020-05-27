@@ -1,0 +1,120 @@
+Build started at 2020-05-27T12:38:26.312381
+Main binary: /usr/bin/python
+Build Options: -Dbuildtype=debug -Dlayout=flat -Dbackend=ninja
+Python system: Linux
+The Meson build system
+Version: 0.54.2
+Source dir: /home/ahmed/Projects/Vala/SineWave
+Build dir: /home/ahmed/Projects/Vala/SineWave/builddir
+Build type: native build
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: sinewave
+Project version: 0.1.0
+C compiler for the build machine: cc (gcc 10.1.0 "cc (GCC) 10.1.0")
+C linker for the build machine: cc ld.bfd 2.34.0
+None of 'AR' are defined in the environment, not changing global flags.
+Vala compiler for the build machine: valac (valac 0.48.6)
+C compiler for the host machine: cc (gcc 10.1.0 "cc (GCC) 10.1.0")
+C linker for the host machine: cc ld.bfd 2.34.0
+None of 'AR' are defined in the environment, not changing global flags.
+Vala compiler for the host machine: valac (valac 0.48.6)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Adding test "Validate desktop file"
+Program appstream-util found: YES (/usr/bin/appstream-util)
+Adding test "Validate appstream file"
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Adding test "Validate schema file"
+Dependency gio-2.0 found: YES 2.64.3 (cached)
+Dependency gtk+-3.0 found: YES 3.24.20 (cached)
+Running compile:
+Working directory:  /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpwbecd81v
+Command line:  cc /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpwbecd81v/testfile.c -o /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpwbecd81v/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Pkg-config binary for MachineChoice.BUILD is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.BUILD at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (1.6.3)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.64.3
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-L/usr/lib -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-lglib-2.0
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpxdf9tknt
+Command line:  cc /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpxdf9tknt/testfile.c -o /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpxdf9tknt/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpb_9w98im
+Command line:  cc /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpb_9w98im/testfile.c -o /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmpb_9w98im/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib/:/lib/x86_64-pc-linux-gnu/10.1.0/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Program build-aux/meson/postinstall.py found: YES (/home/ahmed/Projects/Vala/SineWave/build-aux/meson/postinstall.py)
+Build targets in project: 8
+
+Found ninja-1.10.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmp2jw_kmca
+Command line:  cc /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmp2jw_kmca/testfile.c -o /home/ahmed/Projects/Vala/SineWave/builddir/meson-private/tmp2jw_kmca/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../x86_64-pc-linux-gnu/10.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../lib/:/lib/x86_64-pc-linux-gnu/10.1.0/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/10.1.0/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.

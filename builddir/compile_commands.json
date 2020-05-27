@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "/home/ahmed/Projects/Vala/SineWave/builddir",
+    "command": "valac -C --debug --debug --pkg gtk+-3.0 --pkg gio-2.0 --color=always --directory meson-out/25a6634@@sinewave@exe --basedir ../src --gresources=../src/sinewave.gresource.xml --target-glib=2.50 ../src/main.vala ../src/window.vala ../src/SineWaveWidget.vala",
+    "file": "../src/main.vala",
+    "output": "meson-out/25a6634@@sinewave@exe/main.c"
+  },
+  {
+    "directory": "/home/ahmed/Projects/Vala/SineWave/builddir",
+    "command": "cc -Imeson-out/25a6634@@sinewave@exe -Isrc -I../src -Imeson-out -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/at-spi-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -g -pthread -MD -MQ 'meson-out/25a6634@@sinewave@exe/meson-generated_.._sinewave-resources.c.o' -MF 'meson-out/25a6634@@sinewave@exe/meson-generated_.._sinewave-resources.c.o.d' -o 'meson-out/25a6634@@sinewave@exe/meson-generated_.._sinewave-resources.c.o' -c meson-out/sinewave-resources.c",
+    "file": "meson-out/sinewave-resources.c",
+    "output": "meson-out/25a6634@@sinewave@exe/meson-generated_.._sinewave-resources.c.o"
+  },
+  {
+    "directory": "/home/ahmed/Projects/Vala/SineWave/builddir",
+    "command": "cc -Imeson-out/25a6634@@sinewave@exe -Isrc -I../src -Imeson-out -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/at-spi-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ 'meson-out/25a6634@@sinewave@exe/meson-generated_main.c.o' -MF 'meson-out/25a6634@@sinewave@exe/meson-generated_main.c.o.d' -o 'meson-out/25a6634@@sinewave@exe/meson-generated_main.c.o' -c 'meson-out/25a6634@@sinewave@exe/main.c'",
+    "file": "meson-out/25a6634@@sinewave@exe/main.c",
+    "output": "meson-out/25a6634@@sinewave@exe/meson-generated_main.c.o"
+  },
+  {
+    "directory": "/home/ahmed/Projects/Vala/SineWave/builddir",
+    "command": "cc -Imeson-out/25a6634@@sinewave@exe -Isrc -I../src -Imeson-out -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/at-spi-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ 'meson-out/25a6634@@sinewave@exe/meson-generated_window.c.o' -MF 'meson-out/25a6634@@sinewave@exe/meson-generated_window.c.o.d' -o 'meson-out/25a6634@@sinewave@exe/meson-generated_window.c.o' -c 'meson-out/25a6634@@sinewave@exe/window.c'",
+    "file": "meson-out/25a6634@@sinewave@exe/window.c",
+    "output": "meson-out/25a6634@@sinewave@exe/meson-generated_window.c.o"
+  },
+  {
+    "directory": "/home/ahmed/Projects/Vala/SineWave/builddir",
+    "command": "cc -Imeson-out/25a6634@@sinewave@exe -Isrc -I../src -Imeson-out -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/uuid -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/at-spi-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ 'meson-out/25a6634@@sinewave@exe/meson-generated_SineWaveWidget.c.o' -MF 'meson-out/25a6634@@sinewave@exe/meson-generated_SineWaveWidget.c.o.d' -o 'meson-out/25a6634@@sinewave@exe/meson-generated_SineWaveWidget.c.o' -c 'meson-out/25a6634@@sinewave@exe/SineWaveWidget.c'",
+    "file": "meson-out/25a6634@@sinewave@exe/SineWaveWidget.c",
+    "output": "meson-out/25a6634@@sinewave@exe/meson-generated_SineWaveWidget.c.o"
+  }
+]
