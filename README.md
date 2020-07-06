@@ -10,3 +10,7 @@ There is also a `nim` example at [github gintro repo]
 - meson build
 - ninja -C build
 - ./build/sinewave
+
+## Screenshot
+
+![screenshot](https://github.com/aeldemery/sinewave/blob/master/Screenshot%201.png)
