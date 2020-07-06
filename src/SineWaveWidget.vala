@@ -41,6 +41,7 @@ namespace Sinewave {
             return true;
         }
 
+
         void update_drawing (int width, int height, Cairo.Surface target) {
             Cairo.Context context;
             int i;
